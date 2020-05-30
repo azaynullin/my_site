@@ -1,0 +1,27 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial;
+	height: 100%;
+}
+
+.introduction {
+	margin: 30px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.introduction__name {
+	font-weight: 700;
+    font-size: 45px;
+}
+
+.introduction__major {
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 15px;
+}
